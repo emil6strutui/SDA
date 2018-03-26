@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1520865233 source:d:\strutui benjamin\l3\program1\cstack.c
+	<stdlib.h>
+	<stdio.h>
+	"cstack.h"
+
+1520865066 d:\strutui benjamin\l3\program1\cstack.h
+
+1520869647 source:d:\strutui benjamin\l3\program1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"listadubla.h"
+
+1520866372 source:d:\strutui benjamin\l3\program1\cqueue.c
+	<stdlib.h>
+	<stdio.h>
+	"cqueue.h"
+
+1520866564 d:\strutui benjamin\l3\program1\cqueue.h
+
+1520869420 source:d:\strutui benjamin\l3\program1\listadubla.c
+	<stdlib.h>
+	<stdio.h>
+	"listadubla.h"
+
+1520869480 d:\strutui benjamin\l3\program1\listadubla.h
+
