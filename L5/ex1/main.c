@@ -86,7 +86,7 @@ void deleteKey(NodeT **root, int key)
 
         else
         {
-            if ((*root)->left == NULL && (*root)->left) *root=NULL;
+            if ((*root)->left == NULL && (*root)->right) *root=NULL;
 
 
             else if ((*root)->left == NULL)
@@ -94,6 +94,12 @@ void deleteKey(NodeT **root, int key)
                 p = (*root)->right;
                 *root=p;
                 deleteKey(&(*root)->right, p->key);
+
+
+
+
+
+
 
             }
             else if ((*root)->right == NULL)
